@@ -1,0 +1,84 @@
+#vikas_container1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    padding-top: 2.6%;
+    }
+
+    #vikas_container1 > div {
+    height: 800px;
+    justify-content: center;
+    padding-left: 9%;
+    padding-right: 3%;
+    }
+
+    #vikas_para2 {
+    color: #3C4858;
+    font-size: 1rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    }
+
+    #vikas_para1 {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 3rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.04;
+    letter-spacing: 0em;
+    }
+
+    #vikas_inc {
+    width: 100%;
+    height: 50px;
+    outline: 0;
+    border-width: 0 0 1px;
+    }
+    
+    #vikas_inc:hover {
+    border-color: black;
+    border-width: 0 0 2px;
+    }
+
+    #vikas_inc:focus {
+    border-color: rgb(45, 45, 151);
+    }
+
+    #vikas_submit1 {
+    width: 20%;
+    height: 40px;
+    justify-content: center;
+    background-color: #DF1E2E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 40%;
+    margin-bottom: 12%;
+    }
+
+    #vikas_submit1:hover {
+    background-color: green;
+    }
+   
+    #call {
+    padding-left: 35%;
+    color: #3c4858;
+    font-size: 18px;
+    }
+
+    #vikas_map1 {
+    height: 100%;
+    width: 100%;
+    padding-top: 2%;
+    }
+
+    #vikas_gmap {
+    padding-top: 9%;
+    }
+
+    #vikas_box1 {
+    padding-top: 2%;
+    }
