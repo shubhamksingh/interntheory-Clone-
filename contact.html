@@ -8,9 +8,18 @@
 
     <link rel="shortcut icon" href="https://s3.ap-south-1.amazonaws.com/interntheory/creative/favicon.ico" />
     <link rel="stylesheet" href="./styles/contact.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/sidebar.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <script src="https://kit.fontawesome.com/e6e10a16ef.js" crossorigin="anonymous"></script>
  
   </head>
+    <!-- <div id="navbar"></div> -->
+    <!-- <div id="overlay"></div> -->
   <body>
+    <div id="navbar"></div>
+    <div id="overlay"></div>
+    
     <div id="vikas_container1">
       <div id="vikas_box1">
         <p id="vikas_para1">Contact</p>
@@ -28,7 +37,7 @@
             name=""
             id="vikas_inc"
             placeholder="Email Address"
-            onfocus="this.placeholder = 'Enter Email Address' "
+            onfocus="this.placeholder = 'Email Address' "
           /><br />
           <br />
           <input
@@ -37,7 +46,7 @@
             name=""
             id="vikas_inc"
             placeholder="Mobile no"
-            onfocus="this.placeholder = 'Enter Mobile no' "
+            onfocus="this.placeholder = 'Mobile no' "
           />
           <br />
           <br />
@@ -47,7 +56,7 @@
             name=""
             id="vikas_inc"
             placeholder="Subject"
-            onfocus="this.placeholder = 'Enter Subject' "
+            onfocus="this.placeholder = 'Subject' "
           />
           <br />
           <br />
@@ -57,18 +66,55 @@
             name=""
             id="vikas_inc"
             placeholder="Message"
-            onfocus="this.placeholder = 'Enter Message' "
+            onfocus="this.placeholder = 'Message' "
           />
           <br />
           <br />
           <input type="submit" name="" id="vikas_submit1" value="SUBMIT" />
         </form>
+
+        <div id="vikas_icon">
+          <div
+            id="A1"
+            onclick="window.location.href='https://www.facebook.com/interntheory'"
+          >
+            <i class="fab fa-facebook-square"></i>
+          </div>
+          <div
+            id="B1"
+            onclick="window.location.href='https://twitter.com/InternTheory'"
+          >
+            <i class="fab fa-twitter-square"></i>
+          </div>
+          <div
+            id="C1"
+            onclick="window.location.href='https://www.instagram.com/interntheory/'"
+          >
+            <i class="fab fa-instagram-square"></i>
+          </div>
+          <div
+            id="D1"
+            onclick="window.location.href='https://www.linkedin.com/company/interntheory/about/'"
+          >
+            <i class="fab fa-linkedin"></i>
+          </div>
+          <div
+            id="E1"
+            onclick="window.location.href='https://www.instagram.com/interntheory/'"
+          >
+            <i class="fab fa-whatsapp-square"></i>
+          </div>
+        </div>
+
+        <p id="or">OR</p>
+
+       
         <p id="call">Call: &nbsp;&nbsp;+91 81047 73673</p>
       </div>
       <div id="vikas_map1">
         <iframe
-          width="601"
-          height="501"
+          width="95%"
+          height="80%%%"
           id="vikas_gmap"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.42472500666!2d72.8169983144229!3d18.956841060634368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce11d18fa849%3A0xe5c6958cfc6cad1a!2sIntern+Theory+Career+Solutions+LLP!5e0!3m2!1sen!2sin!4v1459750566672"
           frameborder="0"
@@ -80,8 +126,18 @@
 
       </div>
     </div>
+
+    <div id="footer"></div> 
   </body>
 </html>
+<script>
+  let vik = document.getElementById("vikas_contactform1");
+  vik.addEventListener("submit", function () {
+    alert("We will get back you soon");
+  });
+</script>
+
+<script src="./scripts/import.js" type="module"></script>
 
 
 
