@@ -1,63 +1,63 @@
 let course_data=[{
     img:"https://assets.interntheory.com/creative/courses/thumbnails/it.jpg",
     title:"IT Starter Pack (4 Courses)",
-    desc:"Learn the most demanded skills in the IT industry today. Sign up for Web Development, Android App Development, R Programming and Data Analytics. A complete IT package to kickstart your career.",
-    price:"₹ 32999",
-    dis_price:"₹ 15999",
+    desc:"Learn the most demanded skills in the IT industry today. Sig...",
+    price:32999,
+    dis_price:15999,
     emi:"EMI Starting at ₹915/month",
 },
 {
     img:"https://assets.interntheory.com/creative/courses/thumbnails/digital-marketing-course.png",
     title:"Digital Marketing Course",
-    desc:"Learn the art of digital marketing. Sign up for this online digital marketing course and learn search engine optimisation (seo), social media marketing (smm), search engine marketing (sem) and many other social media strategies.",
-    price:"₹ 11999",
-    dis_price:"₹ 5999",
+    desc:"Learn the art of digital marketing. Sign up for this online ...",
+    price: 11999,
+    dis_price: 5999,
     emi:"EMI Starting at ₹343/month",
 },
 {
     img:"https://assets.interntheory.com/creative/courses/thumbnails/data-analytics-r-programming-course.png",
     title:"Data Analytics With R Programming Course",
-    desc:"Learn data science online. Join this online data analytics course and kickstart your career in the fastest growing industry. Learn r programming, data wrangling, visualisations, statistics and other data analytic strategies.",
-    price:"₹ 11999",
-    dis_price:"₹ 5999",
+    desc:"Learn data science online. Join this online data analytics c...",
+    price: 11999,
+    dis_price: 5999,
     emi:"EMI Starting at ₹343/month",
 },
 {
     img:"https://assets.interntheory.com/creative/courses/thumbnails/web-development-course.png",
     title:"Web Development Course",
-    desc:"Learn the art of web design and web development. Join this online web development course and learn front end technologies like html, css, bootstrap. Also learn back end technologies like php and database management using mysql.",
-    price:"₹ 7999",
-    dis_price:"₹ 3999",
+    desc:"Learn the art of web design and web development. Join this o ...",
+    price: 7999,
+    dis_price: 3999,
     emi:"EMI Starting at ₹229/month",
 },{
     img:"https://assets.interntheory.com/creative/courses/thumbnails/tally-gst-course.png",
     title:"Tally + GST Course",
-    desc:"Sign up for this online tally and gst course and learn how to effectively use the most widely used accounting software. Learn the concepts of GST online and how it is integrated with Tally",
-    price:"₹ 7999",
-    dis_price:"₹ 3999",
+    desc:"Sign up for this online tally and gst course and learn how t ...",
+    price: 7999,
+    dis_price: 3999,
     emi:"EMI Starting at ₹229/month",
 },{
     img:"https://assets.interntheory.com/creative/courses/thumbnails/android-app-development-kotlin-course.png",
     title:"Android App Development Using Kotlin Course",
-    desc:"Learn the art of android app design and web development. Join this online android app development course and learn how to build an android app from scratch. Learn kotlin how to use kotlin for app development.",
-    price:"₹ 7999",
-    dis_price:"₹ 3999",
+    desc:"Learn the art of android app design and web development. Joi ...    ",
+    price: 7999,
+    dis_price: 3999,
     emi:"EMI Starting at ₹229/month",
 },
 {
     img:"https://assets.interntheory.com/creative/courses/thumbnails/advanced-excel-course.png",
     title:"Advanced Excel Course",
-    desc:"Master MS Excel. Take the online ms excel course and learn the software which is most widely used in all industries. Learn advanced excel tips and tricks and become an expert of excel.",
-    price:"₹ 5999",
-    dis_price:"₹ 2999",
+    desc:"Master MS Excel. Take the online ms excel course and learn t ...",
+    price: 5999,
+    dis_price: 2999,
     emi:"EMI Starting at ₹172/month",
 },
 {
     img:"https://assets.interntheory.com/creative/courses/thumbnails/r-programming-course.png",
     title:"R Programming Course",
-    desc:"Learn r programming online. Sign up for this online r programming course and become a master a coding. Become an expert at r programming and join the latest data science and data analytics revolution.",
-    price:"₹ 5999",
-    dis_price:"₹ 2999",
+    desc:"Learn r programming online. Sign up for this online r progra ...",
+    price: 5999,
+    dis_price: 2999,
     emi:"EMI Starting at ₹172/month",
 },];
 let job_data=[{
@@ -66,7 +66,8 @@ let job_data=[{
     company_name:"Indiumplus Financial Services Pvt Ltd",
     position:"Software Development",
     city:"Mumbai",
-    salary:"Salary: 50000 - 60000 per month",
+    salary:"50000 - 60000 per month",
+    duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/companylogos/e6d22059b45e45d9ccca527c74ef73954726f21e/a5f67648b11d6f06617857c7a43393f82b82ad9dcom.png",
@@ -74,7 +75,8 @@ let job_data=[{
     company_name:"Zell Education",
     position:"Operations",
     city:"Mumbai",
-    salary:"Salary: 25000 - 35000 per month",
+    salary:" 25000 - 35000 per month",
+    duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/logos/5e4aa4f62ecc23200708c5cf0d542f7ee1345362.jpg",
@@ -82,7 +84,8 @@ let job_data=[{
     company_name:"arham labs",
     position:"Digital Designing",
     city:"Mumbai",
-    salary:"Salary: 40000 - 60000 per month",
+    salary:" 40000 - 60000 per month",
+    duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/logos/5e4aa4f62ecc23200708c5cf0d542f7ee1345362.jpg",
@@ -90,7 +93,8 @@ let job_data=[{
     company_name:"arham labs",
     position:"Web Design And Development",
     city:"Mumbai",
-    salary:"Salary: 30000 - 50000 per month",
+    salary:" 30000 - 50000 per month",
+    duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/logos/bf3174743fe71c1e3028caabc90044f486d5bc7b.jpg",
@@ -98,7 +102,8 @@ let job_data=[{
     company_name:"HomeCapital",
     position:"Digital Designing",
     city:"Mumbai",
-    salary:"Salary: 40000 - 60000 per month",
+    salary:" 40000 - 60000 per month",
+    duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/logos/0b27fd3c3939c9f43653b65a93cfc9fb85b9095d.jpg",
@@ -106,7 +111,8 @@ let job_data=[{
     company_name:"Post Card Media",
     position:"Content Writing",
     city:"Mumbai",
-    salary:"Salary: 50000 - 60000 per month",
+    salary:" 50000 - 60000 per month",
+    duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/logos/5e4aa4f62ecc23200708c5cf0d542f7ee1345362.jpg",
@@ -114,7 +120,8 @@ let job_data=[{
     company_name:"arham labs",
     position:"Software Development",
     city:"Mumbai",
-    salary:"Salary: 35000 - 45000 per month",
+    salary:" 35000 - 45000 per month",
+    duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/logos/bf3174743fe71c1e3028caabc90044f486d5bc7b.jpg",
@@ -122,7 +129,8 @@ let job_data=[{
     company_name:"HomeCapital",
     position:"Data Analysts",
     city:"Mumbai",
-    salary:"Salary: 65000 - 75000 per month",
+    salary:" 65000 - 75000 per month",
+    duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/logos/bf3174743fe71c1e3028caabc90044f486d5bc7b.jpg",
@@ -130,7 +138,8 @@ let job_data=[{
     company_name:"HomeCapital",
     position:"Software Development",
     city:"Mumbai",
-    salary:"Salary: 83000 - 100000 per month",
+    salary:" 83000 - 100000 per month",
+    duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/logos/bbdd70a0af36996b7e4b887a4ae57e4723ec4a23.jpg",
@@ -138,7 +147,8 @@ let job_data=[{
     company_name:"JITO Incubation and Innovation Foundation (JIIF)",
     position:"Finance",
     city:"Mumbai",
-    salary:"Salary: 20000 - 25000 per month",
+    salary:" 20000 - 25000 per month",
+    duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/companylogos/e6d22059b45e45d9ccca527c74ef73954726f21e/a5f67648b11d6f06617857c7a43393f82b82ad9dcom.png",
@@ -146,7 +156,8 @@ let job_data=[{
     company_name:"Zell Education ",
     position:"Business Development",
     city:"Mumbai",
-    salary:"Salary: 25000 - 35000 per month",
+    salary:" 25000 - 35000 per month",
+    duration:"3 weeks left",
 },
 ];
 let intership_data=[
@@ -158,6 +169,7 @@ let intership_data=[
     role:"Marketing",
     city:"Mumbai",
     stipend:"Stipend: 10000 per month",
+    duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/logos/9290019103f3310fa96383f55b56c749eb6ef9dd.jpg",
@@ -167,6 +179,7 @@ let intership_data=[
     role:"SEO",
     city:"Pune,Aurangabad  ",
     stipend:"Stipend: Expenses Covered ",
+    duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/companylogos/b1d37ce6289d72ee624d65f8422795a903a71a6f/68afb2eae34f20db5e41a3964d2b407fd7648131com.jpg",
@@ -175,7 +188,7 @@ let intership_data=[
     intern_type:"Full Time Internship",
     role:"Business Development",
     city:"Mumbai",
-    stipend:"Stipend: 8000 - 14000 per month",
+    stipend:"Stipend: 8000 - 14000 per month",duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/companylogos/e1822db470e60d090affd0956d743cb0e7cdf113/f9d920bb5121b4f9bd050ef51143a49c83601f73com.png",
@@ -185,6 +198,7 @@ let intership_data=[
     role:"Monitoring And Evalution Volunteer",
     city:"Mumbai",
     stipend:"Stipend: None",
+    duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/companylogos/e1822db470e60d090affd0956d743cb0e7cdf113/f9d920bb5121b4f9bd050ef51143a49c83601f73com.png",
@@ -194,6 +208,7 @@ let intership_data=[
     role:"Marketing",
     city:"Mumbai",
     stipend:"Stipend: None",
+    duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/companylogos/e1822db470e60d090affd0956d743cb0e7cdf113/f9d920bb5121b4f9bd050ef51143a49c83601f73com.png",
@@ -203,6 +218,7 @@ let intership_data=[
     role:"HR",
     city:"Mumbai",
     stipend:"Stipend: None",
+    duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/companylogos/e1822db470e60d090affd0956d743cb0e7cdf113/f9d920bb5121b4f9bd050ef51143a49c83601f73com.png",
@@ -212,6 +228,7 @@ let intership_data=[
     role:"Fundraising",
     city:"Mumbai",
     stipend:"Stipend: None",
+    duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/companylogos/b666213054c4a46dca64c77096f26c7be7d32630/089e4392566e10879a428bbfd819f37abb18408fcom.jpg",
@@ -221,6 +238,7 @@ let intership_data=[
     role:"Graphic Designing",
     city:"Mumbai",
     stipend:"Stipend: 5000 - 15000 per month",
+    duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/companylogos/b666213054c4a46dca64c77096f26c7be7d32630/089e4392566e10879a428bbfd819f37abb18408fcom.jpg",
@@ -230,6 +248,7 @@ let intership_data=[
     role:"SEO",
     city:"Mumbai",
     stipend:"Stipend: 3000 - 15000 per month",
+    duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/companylogos/b666213054c4a46dca64c77096f26c7be7d32630/089e4392566e10879a428bbfd819f37abb18408fcom.jpg",
@@ -239,6 +258,7 @@ let intership_data=[
     role:"Social Media",
     city:"Mumbai",
     stipend:"Stipend: 3000 - 8000 per month",
+    duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/logos/36e891e73e1a3a143032f938c3c5cfedf893180d.jpg",
@@ -248,7 +268,9 @@ let intership_data=[
     role:"Business Development",
     city:"Noida",
     stipend:"Stipend: 7000 per sale",
+    duration:"3 weeks left",
 },
+
 {
     url:"https://assets.interntheory.com/uploads/company/logos/74cde4c615291afa152cd7d20c02be218665f1d8.jpg",
     title:"ACCOUNTS AND TAX",
@@ -257,6 +279,7 @@ let intership_data=[
     role:"Accountant",
     city:"Mumbai",
     stipend:"Stipend: 5000 - 8000 per month",
+    duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/logos/fff28c12e9cec25407a49bc223168438ac2ee7d9.jpg",
@@ -266,6 +289,7 @@ let intership_data=[
     role:"Sales And Marketing",
     city:"Mumbai,Bangalore,Kolkata,Delhi,Noida,Faridabad,Ghaziabad,Chennai",
     stipend:"Stipend: 100 per sale",
+    duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/companylogos/53c7bc413d6a1.jpg",
@@ -274,7 +298,7 @@ let intership_data=[
     intern_type:"Full Time Internship",
     role:"Human Resources",
     city:"Mumbai",
-    stipend:"Stipend: 10000 per month",
+    stipend:"Stipend: 10000 per month",duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/logos/c29b10a3db1d2fd226ce269efb6554ce50de2c8d.jpg",
@@ -284,6 +308,7 @@ let intership_data=[
     role:"Startup Incubation",
     city:"Mumbai",
     stipend:"Stipend: 10000 per month",
+    duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/companylogos/62362fbf882221470f099d8d0a119df93ce19831/7e34b7356b30b3696d14fcab94c6e8989a42fd69com.jpg",
@@ -293,6 +318,7 @@ let intership_data=[
     role:"Marketing",
     city:"Bangalore,Chennai,Delhi,Mumbai,Pune,Thane",
     stipend:"Stipend: 3000 - 10000 per month",
+    duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/logos/76a0ec84f95f4b7a450d53b5953bdf17802f62ce.jpg",
@@ -302,6 +328,7 @@ let intership_data=[
     role:"Business Development",
     city:"Delhi",
     stipend:"Stipend: 4000 per month",
+    duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/logos/76a0ec84f95f4b7a450d53b5953bdf17802f62ce.jpg",
@@ -311,6 +338,7 @@ let intership_data=[
     role:"Human Resources",
     city:"Delhi",
     stipend:"Stipend: 4000 per month",
+    duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/logos/cf8bd45dd2e6a22fa207ef5d85638f803995a2d0.jpg",
@@ -320,6 +348,7 @@ let intership_data=[
     role:"Marketing",
     city:"Mumbai",
     stipend:"Stipend: 2500 per month",
+    duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/logos/d8b8f4b6a278bbbff45009079de369e20f3a34ab.jpg",
@@ -329,6 +358,7 @@ let intership_data=[
     role:"Graphic Designing",
     city:"Lucknow",
     stipend:"Stipend: 5000 per month",
+    duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/logos/d8b8f4b6a278bbbff45009079de369e20f3a34ab.jpg",
@@ -338,6 +368,7 @@ let intership_data=[
     role:"Social Media",
     city:"Lucknow",
     stipend:"Stipend: 2000 - 4000 per month",
+    duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/logos/d8b8f4b6a278bbbff45009079de369e20f3a34ab.jpg",
@@ -347,6 +378,7 @@ let intership_data=[
     role:"Digital Marketing",
     city:"Lucknow",
     stipend:"Stipend: 2000 - 4000 per month",
+    duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/companylogos/eef24376f8ef94fcc6f44e84b4275f006f9f05d4/c1de81e99cb1e58751a9f2db58529a775aba3f5ccom.png",
@@ -356,6 +388,7 @@ let intership_data=[
     role:"Business Development",
     city:"Mumbai",
     stipend:"Stipend: 20000 per month",
+    duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/logos/8e8fc086c6b00a17bda7673163382b99ffa79699.jpg",
@@ -365,6 +398,7 @@ let intership_data=[
     role:"Web Design And Development",
     city:"Ahmedabad",
     stipend:"Stipend: None",
+    duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/logos/e92203ecbc04e6a29157d7d289c09327e06ab2d9.jpg",
@@ -374,6 +408,7 @@ let intership_data=[
     role:"Digital Marketing",
     city:"Delhi,Mumbai,Varanasi",
     stipend:"Stipend: 5000 per month",
+    duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/logos/87fbb47a902ced66fdfeed3f5755892a8d055fa6.jpg",
@@ -383,6 +418,7 @@ let intership_data=[
     role:"Digital Marketing",
     city:"Bangalore,Delhi,Kanpur",
     stipend:"Stipend: 6000 per month",
+    duration:"3 weeks left",
 },
 {
     url:"https://assets.interntheory.com/uploads/company/companylogos/c51ab999fbe75d79d8c39e7cf9f2a0568bf91c57/9d2ed47f74d18e5bdae0ff4d013bbee314b3db93com.jpg",
@@ -392,7 +428,10 @@ let intership_data=[
     role:"Client Servicing",
     city:"Mumbai",
     stipend:"Stipend: 12000 per month",
+    duration:"3 weeks left",
 },
 
 ]
-console.log(course_data,job_data,intership_data)
+localStorage.setItem("Course_data",JSON.stringify(course_data))
+localStorage.setItem("Jobs_data",JSON.stringify(job_data))
+localStorage.setItem("Internship_data",JSON.stringify(intership_data))

@@ -1,0 +1,65 @@
+#sec1{
+    background-color: teal;
+    height: 300px;
+
+}
+#sec1>img{
+    height: 100%;
+    width: 100%;
+}
+#sec2{
+    width: 80%;
+    margin: auto;
+}
+#asec2{
+    display: grid;
+    height: 800px;
+    /* width: 80%; */
+    grid-template-columns: repeat(4,20%);
+    gap: 10% 10%;
+    margin-bottom: 30px;
+}
+#asec2>div{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.course{
+    display: flex;
+    flex-direction: column;
+    border-bottom-style: dashed;
+}
+.img1{
+    height: 40%;
+    width: 100%;
+}
+.head1{
+    font-size: 20px;
+}
+.desc{
+    font-size: 18px;
+    font-weight: 400;
+    color: dimgray;
+}
+.price{
+    display: flex;
+    justify-content: end;
+}
+.np{
+    font-size: 18px;
+    padding-right: 10px;
+    text-decoration: line-through;
+}
+.price{
+    font-size: 22px;
+}
+.emi{
+    color: gold;
+}
+.order{
+    display: flex;
+    justify-content: space-between;
+}
+.main1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
