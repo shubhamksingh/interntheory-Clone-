@@ -1,11 +1,161 @@
 <html>
     <head>
         <title>Login page</title>
+        <style>
+          
+            #lcontainer{
+                margin-top:20px;
+                width:450px;
+                height:auto;
+                padding:20px;
+                border-radius: 5px;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          
+            }
+            #ltop{
+                display:flex;
+                margin-bottom: 10px;
+            }
+            #lstudent{
+                width:50%;
+                text-align: center;
+                font-weight: bold;
+                color: gray;
+                
+            }
+            #lcompany{
+                width:50%;
+                text-align: center;
+                font-weight: bold;
+                color: gray;
+            }
+            #llogin{
+                width:100%;
+                font-size:25px;
+            }
+            #lchange{
+                border:1px dashed red;
+                font-size: large;
+                background-color: rgb(245, 207, 213);
+                margin-top: 10px;
+            }
+            #fb{
+                display:flex;
+                border:1px solid green;
+                margin-top:20px;
+                padding:5px;
+                background-color: rgb(47, 47, 180);
+                color:white;
+                border-radius: 5px;
+                
+            }
+            #fb:hover{
+                background-color: rgb(3, 3, 65);
+            }
+            #fblogo{
+                border:1px solid rgb(61, 61, 109);
+                margin-left: 5px;
+                background-color: white;
+                padding:3px;
+                border-radius: 5px;
+            }
+            #fbtext{
+                margin-left: 100px;
+                margin-top: 6px;
+            }
+            .fblogo{
+                width:20px;
+            }
+            #ggl{
+                display:flex;
+                border:1px solid green;
+                margin-top:7px;
+                padding:5px;
+                background-color: rgb(63, 63, 241);
+                color:white;
+                border-radius: 5px;
+            }
+            #ggl:hover{
+                background-color: rgb(3, 3, 65);
+            }
+            .ggllogo{
+                width:20px;
+                border:1px solid blue;
+                margin-left: 5px;
+                background-color: white;
+                padding:3px;
+                border-radius: 5px;
+            }
+            #ggltext{
+                margin-left: 100px;
+                margin-top: 6px;
+            }
+            #lor{
+                text-align: center;
+                font-weight: lighter;
+                margin-bottom: 20px;
+            }
+        
+            #sfname{
+                width:49%;
+            }
+            #slname{
+                width:49%;
+                margin-left: 6px;
+            }
+            .lmail{
+                width:100%;
+                height:50px;
+                border-top:none;
+                border-left: none;
+                border-right: none;
+            }
+            .lpassword{
+                width:100%;
+                height:50px;
+                border-top:none;
+                border-left: none;
+                border-right: none;
+            }
+            #smobile{
+                width:100%;
+            }
+           
+            #lrem{
+                margin-top: 10px;
+                display:flex;
+                justify-content: space-between;
+            }
+           #lcreate{
+            margin-top: 10px;
+            width:100%;
+           text-align: center;
+           }
+            #llog{
+                width:95%;
+                margin-top: 20px;
+                height:30px;
+                margin-left: 15px;
+                background-color: white;
+                border:1px solid rgb(228, 90, 113);
+                color:rgb(221, 17, 51);
+                font-weight: bolder;
+                border-radius: 4px;
+            }
+            #llog:hover{
+                background-color: pink;
+            }
+            #cbnavbar{
+                border:1px solid red;
+                margin-bottom: 25px;
+            }
+        </style>
     </head>
     <body>
+        <div id="cbnavbar">navbar</div>
         <div id="lcontainer">
             <div id="ltop">
-                <div id="lstuedent">STUDENT</div>
+                <div id="lstudent">STUDENT</div>
                 <div id="lcompany">COMPANY</div>
             </div>
             <div id="lbody">
@@ -20,15 +170,16 @@
                     <div id="ggltext">SIGNIN WITH FACEBOOK</div>
                 </div>
                 <div id="lor">OR</div>
-                <div id="lmail"><input type="text" class="lmail"></div>
-                <div id="lpassword"><input type="text" class="lpassword"></div>
+                <div id="lmail"><input type="text" class="lmail" placeholder="Email/Number"></div>
+                <div id="lpassword"><input type="text" class="lpassword" placeholder="Password"></div>
                 <div id="lrem">
-                    <div><input type="checkbox" class="lrem">Remember Me</div>
+                    <div><input type="checkbox" class="lrem"> &nbsp;Remember Me</div>
                     <div><a href="">Forgot Password?</a></div>
                 </div>
-                <div id="lcreate">Don't have an account? <a href="">Create your account</a></div>
-                <button id="llogin">Login</button>
+                <div id="lcreate">Don't have an account? <a href="cbsignup.html">Create your account</a></div>
+                <button id="llog">LOGIN</button>
             </div>
         </div>
     </body>
 </html>
+<script src="./scripts/cblogin.js" type="module"></script>

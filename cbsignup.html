@@ -1,63 +1,244 @@
 <html>
     <head>
         <title>Signup Page</title>
+        <style>
+          
+            #scont{
+                margin-top:20px;
+                width:500px;
+                height:auto;
+                padding:20px;
+                border-radius: 5px;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+           
+            }
+            #sregister{
+                width:100%;
+                font-size:25px;
+            }
+            #schange{
+                border:1px dashed red;
+                font-size: large;
+                background-color: rgb(245, 207, 213);
+                margin-top: 10px;
+            }
+            #sfb{
+                display:flex;
+                border:1px solid green;
+                margin-top:20px;
+                padding:5px;
+                background-color: rgb(47, 47, 180);
+                color:white;
+                border-radius: 5px;
+                
+            }
+            #sfb:hover{
+                background-color: rgb(3, 3, 65);
+            }
+            #sfblogo{
+                border:1px solid rgb(61, 61, 109);
+                margin-left: 5px;
+                background-color: white;
+                padding:3px;
+                border-radius: 5px;
+            }
+            #sfbtext{
+                margin-left: 100px;
+                margin-top: 6px;
+            }
+            .sfblogo{
+                width:20px;
+            }
+            #sggl{
+                display:flex;
+                border:1px solid green;
+                margin-top:7px;
+                padding:5px;
+                background-color: rgb(63, 63, 241);
+                color:white;
+                border-radius: 5px;
+            }
+            #sggl:hover{
+                background-color: rgb(3, 3, 65);
+            }
+            .sggllogo{
+                width:20px;
+                border:1px solid blue;
+                margin-left: 5px;
+                background-color: white;
+                padding:3px;
+                border-radius: 5px;
+            }
+            #sggltext{
+                margin-left: 100px;
+                margin-top: 6px;
+            }
+            #sor{
+                text-align: center;
+                font-weight: lighter;
+                margin-bottom: 30px;
+            }
+            #sfl{
+                display:flex;
+                font-size: large;
+            }
+            #slas{
+                margin-left: 177px;
+            }
+            #sfname{
+                width:49%;
+            }
+            #slname{
+                width:49%;
+                margin-left: 6px;
+            }
+            #semail{
+                width:100%;
+            }
+            #spassword{
+                width:100%;
+            }
+            #smobile{
+                width:100%;
+            }
+            #sform input{
+                height:40px;
+                border-top:none;
+                border-left: none;
+                border-right: none;
+            }
+            #scity{
+                width:100%;
+                height:40px;
+                border-top:none;
+                border-left: none;
+                border-right: none;
+                 color:gray;
+            }
+            #spreferences{
+                width:100%;
+                height:40px;
+                border-top:none;
+                border-left: none;
+                border-right: none;
+                 color:gray;
+            }
+            #sfind{
+                width:100%;
+                height:40px;
+                border-top:none;
+                border-left: none;
+                border-right: none;
+                 color:gray;
+            }
+            #slooking{
+                width:100%;
+                height:40px;
+                border-top:none;
+                border-left: none;
+                border-right: none;
+                 color:gray;
+            }
+            #saffiliated{
+                width:100%;
+                height:40px;
+                border-top:none;
+                border-left: none;
+                border-right: none;
+            }
+            #snext{
+                width:95%;
+                margin-top: 10px;
+                height:30px;
+                margin-left: 15px;
+                background-color: white;
+                border:1px solid rgb(228, 90, 113);
+                color:rgb(221, 17, 51);
+                font-weight: bolder;
+                border-radius: 4px;
+            }
+            #snext:hover{
+                background-color: pink;
+            }
+            #cbnavbar{
+                border:1px solid red;
+                margin-bottom: 25px;
+            } 
+           .hdhide{
+            visibility:hidden;
+           }
+           .hdsnext{
+            margin-top: -220px;
+           }
+           .hdscont{
+            height:470px;
+           }
+            
+        </style>
     </head>
     <body>
+        <div id="cbnavbar">navbar</div>
         <div id="scont">
             <div id="sregister">Register Candidate</div>
-            <div id="sin">Already have an account? <a class="sin" href="">Sign in</a></div>
+            <div id="sin">Already have an account? <a class="sin" href="cblogin.html">Sign in</a></div>
             <div id="schange">If you are a company looking to hire interns, please register as a company by clicking <a id="shere" href="">here</a></div>
             <div id="sfb">
                 <div id="sfblogo"><img src="facebook.png" alt="" class="sfblogo"></div>
-                <div id="sfbtext">SIGNIN WITH FACEBOOK</div>
+                <div id="sfbtext">REGISTER WITH FACEBOOK</div>
             </div>
             <div id="sggl">
                 <div id="sggllogo"><img src="google.png" alt="" class="sggllogo"></div>
-                <div id="sggltext">SIGNIN WITH FACEBOOK</div>
+                <div id="sggltext">REGISTER WITH GOOGLE</div>
             </div>
             <div id="sor">OR</div>
+            <div id="sfl">
+                <div id="sfir">First Name*</div>
+                <div id="slas">Last Name*</div>
+            </div>
             <form id="sform">
-                <input type="text" id="sfname" placeholder="Enter First Name">First Name*
-                <input type="text" id="slname" placeholder="Enter last Name">Last Name*<br>
-                <input type="text" id="semail"><br>
-                <input type="text" id="spassword"><br>
-                <input type="number" id="smobile"><br>
-                <select id="scity">
+                <input type="text" id="sfname" required placeholder="First Name*">
+                <input type="text" id="slname" required placeholder="last Name*"><br>
+                <input type="text" id="semail" required placeholder="Email*"><br>
+                <input type="text" id="spassword" required placeholder="Password*"><br>
+                <div id="hide">
+                <input type="number" id="smobile" required placeholder="Mobile Number*"><br>
+                <select id="scity" required>
                     <option value="">Select city*</option>
                     <option value="Varanasi">Varanasi</option>
-                    <option value="Bangalore">Varanasi</option>
-                    <option value="Mumbai">Varanasi</option>
-                    <option value="New Delhi">Varanasi</option>
-                    <option value="Chennai">Varanasi</option>
-                </select>
-                <select id="spreferences">
+                    <option value="Bangalore">Bangalore</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="New Delhi">New Delhi</option>
+                    <option value="Chennai">Chennail</option>
+                </select><br>
+                <select id="spreferences" required>
                     <option value="">Preferences Select one or more*</option>
-                    <option value="Varanasi">Varanasi</option>
-                    <option value="Bangalore">Varanasi</option>
-                    <option value="Mumbai">Varanasi</option>
-                    <option value="New Delhi">Varanasi</option>
-                    <option value="Chennai">Varanasi</option>
-                </select>
-                <select id="sfind">
+                    <option value="Electronics & communication Engineeering">Electronics & communication Engineeering</option>
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="Frontend development">Frontend development</option>
+                    <option value="Backend development">Backend development</option>
+                    <option value="Full Stack Web Development">Full Stack Web Development</option>
+                </select><br>
+                <select id="sfind" required>
                     <option value="">How did you find us?*</option>
-                    <option value="Varanasi">Freind</option>
-                    <option value="Bangalore">New Paper</option>
-                    <option value="Mumbai">Varanasi</option>
-                    <option value="New Delhi">Varanasi</option>
-                    <option value="Chennai">Other</option>
-                </select>
-                <select id="slooking">
+                    <option value="From A Freind">From A Freind</option>
+                    <option value="New Paper">New Paper</option>
+                    <option value="Google Search Result">Google Search Result</option>
+                    <option value="Google Ads">Google Ads</option>
+                    <option value="Other">Other</option>
+                </select><br>
+                <select id="slooking" required>
                     <option value="">What are you looking for?*</option>
-                    <option value="Varanasi">Job</option>
-                    <option value="Bangalore">Internship</option>
-                    <option value="Mumbai">Part Time</option>
-                    <option value="New Delhi">Varanasi</option>
-                    <option value="Chennai">Other</option>
-                </select>
+                    <option value="Job">Job</option>
+                    <option value="Internship">Internship</option>
+                    <option value="Both">Both</option>
+                  
+                </select><br>
                 <input type="text" id="saffiliated" placeholder="Affiliate Code (if any)"><br>
+                </div>
                 <button id="snext">NEXT</button>
 
             </form>
         </div>
     </body>
 </html>
+<script src="./scripts/cbsignup.js"></script>
