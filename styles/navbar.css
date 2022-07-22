@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body::-webkit-scrollbar {
+    display: none;
+}
 
 #navbar {
     position: fixed;
@@ -11,7 +14,7 @@
     box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 4px;
     top: 0;
     width: 100%;
-    height: 5vh;
+    height: 12vh;
     padding: 2%;
     display: flex;
     align-items: center;
@@ -29,19 +32,24 @@
 #navbar>div>i{
     padding: 15px;
 }
-
+.fa-xmark{
+    padding: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+}
 #navbar>div>i:hover{
     background-color: #ebebeb;
     border-radius: 50%;
     cursor: pointer;
 }
-
+.fa-xmark:hover{
+    background-color: #eb9300;
+}
 #navbar>div>img {
-    height: 4vh;
+    height: 8vh;
     margin-left: 15px;
     cursor: pointer;
 }
-
 
 #cartEmptyPopup{
     border-radius: 5px;
@@ -58,6 +66,21 @@
     height: 120%;
     z-index: 20;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    animation-duration: .3s;
+}
+
+
+@keyframes showCartEmptyPopup {
+    from {
+        margin-right: -200%;}
+    to {
+        margin-right: 0%;}
+}
+@keyframes hideCartEmptyPopup {
+    from {
+        margin-right: 0%;}
+    to {
+        margin-right: -250%;}
 }
 
 #logoutPopup{
@@ -82,13 +105,4 @@
 
 #logoutPopup:hover{
     background-color: #ebebeb;
-}
-.fa-xmark:hover{
-    background-color: #eb9300;
-}
-
-.fa-xmark{
-    padding: 12px;
-    border-radius: 50%;
-    cursor: pointer;
 }
