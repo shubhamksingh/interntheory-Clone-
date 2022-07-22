@@ -27,9 +27,9 @@ let nonhideFun = () => {
 document.querySelector("#spassword").addEventListener("click",nonhideFun);
 
 
-
+let userArray = JSON.parse(localStorage.getItem("userDetails")) || [];
 let nextFun = () => {
-    let userArray = JSON.parse(localStorage.getItem("userDetails")) || [];
+   
     let obj = {};
     obj.firstName = document.querySelector("#sfname").value;
     obj.lastName =  document.querySelector("#slname").value;
@@ -45,10 +45,20 @@ let nextFun = () => {
     userArray.push(obj);
     
 localStorage.setItem("userDetails",JSON.stringify(userArray));
+let a= document.querySelector("#sfname").value;
+let b=document.querySelector("#slname").value;
+let c= document.querySelector("#semail").value;
+let d=document.querySelector("#spassword").value;
+let e=document.querySelector("#smobile").value;
+let f=document.querySelector("#scity").value;
+let g=document.querySelector("#spreferences").value;
+let h=document.querySelector("#sfind").value;
+let i=document.querySelector("#slooking").value;
+let j=document.querySelector("#saffiliated").value;
+
     window.location.href="cbeducation.html";
 
-
-   
+    
 }
 
 document.querySelector("#snext").addEventListener("click",nextFun);
