@@ -7,7 +7,7 @@
     padding: 1rem;
     background-color: rgb(237, 238, 240);
     margin-top: 50px;
-    height: 550px;
+    /* height: 550px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@
     width: 80%;
     display: flex;
     background-color: white;
-    height: 350px;
+    /* height: 350px; */
     border-radius: 5px;
     box-shadow: rgba(20, 20, 20, 0.16) 0px 1px 4px;
     padding: 2rem;
@@ -81,6 +81,8 @@
     display: flex;
     align-items: center;
     gap: 20px;
+    border-bottom: 1px dashed gray;
+    padding: 10px;
 }
 .cart_item> *:nth-child(3){
     flex-grow: 1    ;
@@ -91,4 +93,5 @@
 }
 .cart_item>img:nth-child(2){
     width: 20%;
+    height: 5rem;
 }
