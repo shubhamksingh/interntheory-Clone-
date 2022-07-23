@@ -1,13 +1,14 @@
 
           
 #scont{
-    margin-top:20px;
+    
     width:470px;
     height:auto;
     padding:20px;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-margin:auto;
+  margin:auto;
+  margin-top:120px;
 color:grey;
 }
 #sregister{
@@ -20,6 +21,7 @@ color:grey;
     font-size: large;
     background-color:rgb(247, 228, 230);
     margin-top: 15px;
+    padding:10px;
    
 }
 #sfb{
@@ -77,21 +79,41 @@ color:grey;
 #sor{
     text-align: center;
     font-weight: lighter;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 #sfl{
     display:flex;
     font-size: large;
 }
 #slas{
-    margin-left: 177px;
+    margin-left: 125px;
 }
 #sfname{
     width:48%;
 }
+.lelabel{
+    position:absolute;
+    margin-left: -210px;
+    margin-top: 20px;
+}
+
+#sfname:focus ~ .lelabel{
+    margin-top: -10px;
+    transition: 0.5s;
+}
 #slname{
     width:48%;
     margin-left: 6px;
+}
+.llabel{
+    position:absolute;
+    margin-left: -200px;
+    margin-top: 20px;
+}
+
+#slname:focus ~ .llabel{
+    margin-top: -10px;
+    transition: 0.5s;
 }
 #semail{
     width:100%;
@@ -103,11 +125,15 @@ color:grey;
     width:100%;
 }
 #sform input{
-    height:50px;
+    height:60px;
     border-top:none;
     border-left: none;
     border-right: none;
     border-bottom: 1px solid grey;
+    outline:none;
+}
+#sform select{
+    height:60px;
 }
 #scity{
     width:100%;

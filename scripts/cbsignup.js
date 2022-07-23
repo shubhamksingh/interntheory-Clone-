@@ -7,9 +7,9 @@ let hideFun = () => {
     let hidebox = document.querySelector("#hide");
     hidebox.classList.add("hdhide");
     let nextbut = document.querySelector("#snext");
-    nextbut.style.marginTop="-220px";
+    nextbut.style.marginTop="-330px";
     let cont = document.querySelector("#scont");
-    cont.style.height="550px";
+    cont.style.height="600px";
 
 }
 window.onload=hideFun();

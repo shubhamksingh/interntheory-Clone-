@@ -1,10 +1,16 @@
 <html>
     <head>
         <title>Signup Page</title>
+        <link rel="shortcut icon" href="https://s3.ap-south-1.amazonaws.com/interntheory/creative/favicon.ico" />
        <link rel="stylesheet" href="./styles/cbsignup.css">
+       <link rel="stylesheet" href="./styles/navbar.css">
+       <link rel="stylesheet" href="./styles/sidebar.css">
+       <link rel="stylesheet" href="./styles/footer.css">
+       <script src="https://kit.fontawesome.com/e6e10a16ef.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div id="cbnavbar">navbar</div>
+        <div id="navbar"></div>
+        <div id="overlay"></div>
         <div id="scont">
             <div id="sregister">Register Candidate</div>
             <div id="sin">Already have an account? <a class="sin" href="cblogin.html">Sign in</a></div>
@@ -18,13 +24,12 @@
                 <div id="sggltext">REGISTER WITH GOOGLE</div>
             </div>
             <div id="sor">OR</div>
-            <div id="sfl">
-                <div id="sfir">First Name*</div>
-                <div id="slas">Last Name*</div>
-            </div>
+            
             <form id="sform">
-                <input type="text" id="sfname" required placeholder="First Name*">
-                <input type="text" id="slname" required placeholder="last Name*"><br>
+                <input type="text" name="sfname" id="sfname" required >
+                <label for="name" class="lelabel">First Name*</label>
+                <input type="text" id="slname" required>
+                <label for="name" class="llabel">Last Name*</label><br>
                 <input type="text" id="semail" required placeholder="Email*"><br>
                 <input type="text" id="spassword" required placeholder="Password*"><br>
                 <div id="hide">
@@ -65,6 +70,8 @@
 
             </form>
         </div>
+        <div id="footer"></div> 
     </body>
 </html>
+<script src="./scripts/import.js" type="module"></script>
 <script src="./scripts/cbsignup.js"></script>

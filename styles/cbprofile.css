@@ -1,10 +1,11 @@
 #pcont{
     display:flex;
     color:grey;
+    margin-top: 120px;
 }
 .profilebut{
     margin-top: 10px;
-
+margin-bottom: 10px;
    background-color: blue;
    border:none;
    padding:5px;

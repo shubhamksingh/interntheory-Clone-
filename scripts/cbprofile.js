@@ -12,7 +12,7 @@ image.src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAADJCAMAAAA93N8MA
 image.style.width="100px";
 image.style.height="100px";
 image.style.display="block";
-image.style.marginLeft="75px";
+image.style.marginLeft="60px";
 let but =  document.createElement("button");
 but.innerText="MY PROFILE";
 but.className="profilebut";
@@ -21,9 +21,12 @@ but.addEventListener("click",function(){
 });
 let names = document.createElement("p");
 names.innerText=`${x} ${y}`;
+names.style.marginBottom="10px";
 let hr = document.createElement("hr");
+hr.style.marginBottom="10px";
 let email = document.createElement("p");
 email.innerText=ups.email;
+email.style.marginBottom="10px";
 let mob =  document.createElement("p");
 mob.innerText = ups.mobile;
 
@@ -47,9 +50,10 @@ let profileFun = (data) =>{
     let pic = document.createElement("img");
     pic.style.width="100px";
     pic.style.height="100px";
-
+  
     let picup = document.createElement("input");
     picup.type="file";
+    picup.style.marginBottom="10px";
     picup.setAttribute("id","picup");
     var ppic="";
     picup.addEventListener("change",function(){
@@ -92,28 +96,36 @@ let profileFun = (data) =>{
     please.style.backgroundColor="rgb(245, 207, 213)";
     please.style.fontWeight="bold";
     please.style.color="AA0114";
+    please.style.marginBottom="20px";
     let personal = document.createElement("p");
     personal.innerText="Personal Details";
     personal.style.fontSize="25px";
+    personal.style.marginBottom="15px";
     let nam = document.createElement("p");
     let a=data.firstName;
     let b=data.lastName;
     nam.innerText=`Name: ${a} ${b}`;
+    nam.style.marginBottom="10px";
     let email =  document.createElement("p");
     let c=data.email;
     email.innerText=`email: ${c}`;
+    email.style.marginBottom="10px";
     let city =  document.createElement("p");
     let d= data.city
     city.innerText=`city: ${d}`;
+    city.style.marginBottom="10px";
     let look = document.createElement("p");
     let e=data.looking;
     look.innerText=`looking for: ${e}`;
+    look.style.marginBottom="10px";
     let mob = document.createElement("p");
     let f=data.mobile;
     mob.innerText=`mobile: ${f}`;
+    mob.style.marginBottom="10px";
     let pre =  document.createElement("p");
     let g=data.preferences;
     pre.innerText=`preferences: ${g}`;
+    pre.style.marginBottom="10px";
 
     box2.append(please,personal,nam,mob,email,city,look,pre);
     document.querySelector("#pright").append(box1,box2);
