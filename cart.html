@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/sidebar.css" />
+    <link rel="stylesheet" href="./styles/cart.css"/>
+    <script
+      src="https://kit.fontawesome.com/e6e10a16ef.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <div id="overlay"></div>
+    <div id="container">
+      <div id="box">
+        <div id="left-box">
+          <div id="inner_left_box">
+            
+          </div>
+        </div>
+        <div id="right-box">
+          <div class="val">
+            <p>Amount</p>
+            <p id="a">0</p>
+          </div>
+          <div class="val">
+            <p>CGST 9%</p>
+            <p id="b">0</p>
+          </div>
+          <div class="val">
+            <p>SGST 9%</p>
+            <p id="c">0</p>
+          </div>
+          <div id="total">
+            <p>Total:</p>
+            <p id="d">0</p>
+          </div>
+
+          <div >
+            <input type="text" placeholder="Coupon Code" id="coupon" />
+            <button id="bt1">GO</button>
+          </div>
+          <div >
+            <button id="bt2">CHECKOUT</button>
+          </div>
+          <div>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer"></div>
+  </body>
+</html>
+<script src="./scripts/cart.js"></script>
+<script src="./scripts/import.js" type="module"></script>

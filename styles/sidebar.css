@@ -1,0 +1,128 @@
+
+
+.no_scroll{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+#main {
+    margin-top: 13vh;
+    width: 98vw;
+    /* height: 200vh; */
+}
+#overlay{
+    display: none;
+    position: fixed;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    background-color: rgba(137, 135, 135, 0.04);
+}
+#overlayDiv{
+    width: 75%;
+    height: 100%;
+}
+
+#sidebar{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
+    /* margin-left: 0%; */
+    overflow-y: scroll;
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    padding-bottom: 20px;
+    animation-duration: .5s;
+}
+
+
+@keyframes showSidebar {
+    from {
+        margin-left: -25%;}
+    to {
+        margin-left: 0%;}
+}
+@keyframes hideSidebar {
+    from {
+        margin-left: 0%;}
+    to {
+        margin-left: -25%;}
+}
+
+#sidebar>div{
+    display: flex;
+    align-items: center;
+}
+#sidebar>div:nth-child(1){
+    height: 10%;
+    padding: 0 2% 0 10%;
+    justify-content: space-between;
+}
+#sidebar>div:nth-child(1)>img{
+    height: 90%;
+}
+
+#closeSidebar{
+    font-size: 25px;  
+    padding: 10px;
+}
+
+#closeSidebar:hover{
+    background-color: #ebebeb;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#sidebar>div:nth-child(2){
+    justify-content: flex-end;
+    padding-right: 20%;
+    height: 15%;
+    border: 1px solid #eeeeee;
+    background-color: #fbfbfb;
+}
+#sidebar>div:nth-child(2)>i{
+    font-size: 200%;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 5%;
+    background-color: #ebebeb;
+}
+
+#sidebar>div:nth-child(3){
+    height: 80%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#sidebar>div:nth-child(3)>a{
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    height: 15%;
+    font-size: large;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+#sidebar>div:nth-child(3)>a:hover{
+    background-color: #eeeeee;
+}
+#sidebar>div:nth-child(3)>a>p>i{
+    font-size: large;
+    color: #446478;
+    margin: 0 20px;
+}
+#sidebar>div:nth-child(3)>div{
+    margin: 3% 0;
+    width: 100%;
+    border-bottom: 2px solid #eeeeee;
+}
+
+
