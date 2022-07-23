@@ -1,9 +1,11 @@
   /* ------ Footer ------ */
   #footer {
+    position: sticky;
+    top: 42vh;
     width: 100%;
     background-color: #446478;
-    /* height: 31vh; */
-    /* margin-top: 15px; */
+    height: 58vh;
+    margin-top: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
