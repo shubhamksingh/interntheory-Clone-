@@ -74,7 +74,9 @@ display(cart);
 total(cart);
 
 
-
+const checkout = document.getElementById('bt2').addEventListener('click',()=>{
+    window.location.href= 'payment.html';
+})
 
 
 
