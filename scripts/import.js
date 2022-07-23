@@ -33,12 +33,17 @@ document.querySelector("#closeSidebar").addEventListener('click', removeOverlay)
 
 document.querySelector("#overlayDiv").addEventListener('click', removeOverlay)
 
+let user = JSON.parse(localStorage.getItem('profile'));
 
+document.querySelector("#sidebarUser").innerHTML = "Login/Signup";
+document.querySelector("#sidebarUser").addEventListener('click', ()=>{
+    window.location.href = "login.html";
+})
 
 // ------ navbar functioning ------
 
 document.querySelector("#navbar .fa-cart-shopping").addEventListener('click', ()=>{
-    let cartArr = [];
+    let cartArr = JSON.parse(localStorage.getItem('cart')) || [];
     if(cartArr.length==0){
         document.querySelector("#cartEmptyPopup").style.display = "flex";
         document.querySelector("#cartEmptyPopup").style.animationName = "showCartEmptyPopup";
@@ -73,43 +78,14 @@ document.querySelector("#navbar .fa-user").addEventListener("mouseout", ()=>{
 
 
 
-
+document.querySelector("#navbar>div>img").addEventListener('click', ()=>{
+    window.location.href = "index.html";
+})
            
     
 
-// paste the below codes in you html file
 
-            /* <div id="navbar"></div>
-                        (on the top of the body)
-
-            <div id="overlay"></div>
-                        (just below the navbar)
-
-
-            <div id="footer"></div> 
-                        (at the end of the body)
-            */
-           
-
-// linking the script and styles
- 
-
-
-{/* 
-
-                ------ scripts -----
-
-        <script src="scripts/import.js" type="module"></script>
-
-        
-
-
-                ------ styles ------
-                
-        <link rel="stylesheet" href="styles/navbar.css">
-        <link rel="stylesheet" href="styles/footer.css">
-        <link rel="stylesheet" href="styles/sidebar.css">  
-        <script src="https://kit.fontawesome.com/e6e10a16ef.js" crossorigin="anonymous"></script>
-
-
- */}
+let logoutFun = ()=>{
+    console.log(1)
+    localStorage.removeItem('profile');
+}
