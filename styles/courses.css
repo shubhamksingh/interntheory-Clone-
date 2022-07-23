@@ -1,7 +1,6 @@
 #sec1{
     background-color: teal;
     height: 300px;
-
 }
 #sec1>img{
     height: 100%;
@@ -11,55 +10,109 @@
     width: 80%;
     margin: auto;
 }
+#asec1{
+    margin:50px auto;
+}
+#asec1>h3{
+    font-size: 22px;
+    color: dimgray;
+    font-weight: 300;
+}
+#asec1>p{
+    color: dimgray;
+    font-size: 22px;
+    text-align: justify;
+    margin-top: 10px;
+}
 #asec2{
     display: grid;
-    height: 800px;
-    /* width: 80%; */
-    grid-template-columns: repeat(4,20%);
-    gap: 10% 10%;
-    margin-bottom: 30px;
+    grid-template-rows: auto;
+    justify-content: center;
+    grid-template-columns: repeat(4,25%);
+    gap:2%;
+    margin: auto;
+   margin-bottom: 100px;
 }
 #asec2>div{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .course{
+    height: 70%;
     display: flex;
     flex-direction: column;
+    padding-bottom: 20px;
     border-bottom-style: dashed;
 }
-.img1{
-    height: 40%;
+.course>img{
+    height: 70%;
     width: 100%;
 }
+
 .head1{
     font-size: 20px;
+    font-weight: 400;
 }
 .desc{
     font-size: 18px;
-    font-weight: 400;
+    overflow: hidden;
     color: dimgray;
 }
 .price{
+ 
     display: flex;
     justify-content: end;
 }
 .np{
-    font-size: 18px;
+    font-size: 14px;
+    padding-top: 10px;
     padding-right: 10px;
     text-decoration: line-through;
 }
-.price{
-    font-size: 22px;
+.pric{
+    font-size: 18px;
+}
+.link{
+    color: blue;
+    padding-right: 20px;
+font-weight: lighter;
+
 }
 .emi{
     color: gold;
+    text-align: end;
+}
+.btn{
+    height: 35px;
+    width: 120px;
+    border-radius: 10px;
 }
 .order{
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
+    
 }
 .main1{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+@media all and (min-width:600px) and (max-width:800px){
+    #asec2{
+        display: grid;
+        grid-template-rows: auto;
+        /* width: 80%; */
+        grid-template-columns: repeat(2,50%);
+        gap:2%;
+       
+    }
+}
+@media all and (min-width:200px) and (max-width:600px){
+    #asec2{
+        display: grid;
+        grid-template-rows: auto;
+        /* width: 80%; */
+        grid-template-columns: repeat(1,70%);
+        gap:2%;
+       
+    }
 }

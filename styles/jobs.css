@@ -1,23 +1,30 @@
+body{
+    background-color:rgb(248,248,248);
+}
+
 #main_1{
-    width: 80%;
-    margin: 100px auto ;
-    
+    width: 90%;
+    margin: 150px auto ;
     display: flex;
     
+}
+#head_1{
+    color: dimgray;
 }
 #aside1{
     height: 300px;
     width: 25%;
     margin-left: 5%;
-   border: 2px solid black;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 #aside1>img{
     height: 100%;
     width: 100%;
 }
 #aside2{
-    border: 2px solid black;
-    width: 70%;
+    background-color: white;
+    width:75%;
+    
     margin-left: 5%;
     display: flex;
     flex-direction: column;
@@ -26,7 +33,7 @@
 #container1{
     margin-top: 30px;
     width: 80%;
-    margin: 20px auto;
+    margin: 50px auto;
     display: flex;
     justify-content: space-between;
     /* border-bottom: 2px solid black; */
@@ -109,8 +116,66 @@
     align-items: flex-end;
    
 }
+.link::after{
+    text-decoration: none;
+    color: blue;
+}
 
 .blue{
     color: blue;
     font-size: 22px;
+    font-weight: lighter;
+}
+@media all and (min-width:600px) and (max-width:1200px){
+    #aside1{
+        height: 200px;
+        width: 20%;
+  
+    }
+    .def{
+        font-size: 16px;
+        overflow: hidden;
+        font-weight: lighter;
+    }
+    #c{
+       display: none;
+    }
+    .img1{
+        display: none;
+    }
+  
+    .cont{
+        justify-content: space-between;
+    }
+   
+    .blue{
+        font-size: 16px;
+        font-weight: lighter;
+    }
+}
+@media all and (min-width:300px) and (max-width:600px){
+    #aside1{
+        height: 150px;
+        width: 15%;
+    }
+    #c{
+        display: none;
+        
+    }
+    .img1{
+        display: none;
+    }
+    .cont{
+        justify-content: space-between;
+    }
+   
+    .blue{
+        font-size: 16px;
+    }
+    .def{
+        font-size: 12px;
+        overflow: hidden;
+        font-weight: lighter;
+
+    }
 }

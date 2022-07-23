@@ -8,22 +8,23 @@ internship_arr.forEach(el => {
     let name=document.createElement("h4");
     let pos=document.createElement("h3");
     let city=document.createElement("h3");
-
-        let div=document.createElement("div");
+    let div=document.createElement("div");
     let stipend=document.createElement("h3")
-    let sal=document.createElement("p")
+    // let sal=document.createElement("p")
     let img=document.createElement("img");
     let apply=document.createElement("h3");
     let a=document.createElement("a");
     let dur=document.createElement("h3");
     a.innerText="View and Apply";
+    a.href="./courses.html"
+    a.setAttribute("class","link")
     dur.innerText=el.duration;
     apply.append(a)
     apply.setAttribute("class","blue")
     img.src=el.url;
     t.innerText=el.title;
     name.innerText=el.company_name;
-    pos.innerText=el.position;
+    pos.innerText=el.role;
     city.innerText=el.city;
     stipend.innerText=el.stipend;
     div.append(img);
