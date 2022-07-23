@@ -1,0 +1,204 @@
+
+          
+#scont{
+    
+    width:470px;
+    height:auto;
+    padding:20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin:auto;
+  margin-top:120px;
+color:grey;
+}
+#sregister{
+    width:100%;
+    font-size:25px;
+    margin-bottom: 10px;
+}
+#schange{
+    border:1px dashed red;
+    font-size: large;
+    background-color:rgb(247, 228, 230);
+    margin-top: 15px;
+    padding:10px;
+   
+}
+#sfb{
+    display:flex;
+    border:1px solid green;
+    margin-top:30px;
+    padding:5px;
+    background-color: rgb(113, 113, 179);
+    color:white;
+    border-radius: 5px;
+    
+}
+#sfb:hover{
+    background-color: rgb(3, 3, 65);
+}
+#sfblogo{
+    border:1px solid rgb(61, 61, 109);
+    margin-left: 5px;
+    background-color: white;
+    padding:3px;
+    border-radius: 5px;
+}
+#sfbtext{
+    margin-left: 100px;
+    margin-top: 6px;
+}
+.sfblogo{
+    width:20px;
+}
+#sggl{
+    display:flex;
+    border:1px solid green;
+    margin-top:15px;
+    padding:5px;
+    background-color: rgb(119, 119, 238);
+    color:white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#sggl:hover{
+    background-color: rgb(3, 3, 65);
+}
+.sggllogo{
+    width:20px;
+    border:1px solid blue;
+    margin-left: 5px;
+    background-color: white;
+    padding:3px;
+    border-radius: 5px;
+}
+#sggltext{
+    margin-left: 100px;
+    margin-top: 6px;
+}
+#sor{
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+#sfl{
+    display:flex;
+    font-size: large;
+}
+#slas{
+    margin-left: 125px;
+}
+#sfname{
+    width:48%;
+}
+.lelabel{
+    position:absolute;
+    margin-left: -210px;
+    margin-top: 20px;
+}
+
+#sfname:focus ~ .lelabel{
+    margin-top: -10px;
+    transition: 0.5s;
+}
+#slname{
+    width:48%;
+    margin-left: 6px;
+}
+.llabel{
+    position:absolute;
+    margin-left: -200px;
+    margin-top: 20px;
+}
+
+#slname:focus ~ .llabel{
+    margin-top: -10px;
+    transition: 0.5s;
+}
+#semail{
+    width:100%;
+}
+#spassword{
+    width:100%;
+}
+#smobile{
+    width:100%;
+}
+#sform input{
+    height:60px;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid grey;
+    outline:none;
+}
+#sform select{
+    height:60px;
+}
+#scity{
+    width:100%;
+    height:40px;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+     color:gray;
+}
+#spreferences{
+    width:100%;
+    height:40px;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+     color:gray;
+}
+#sfind{
+    width:100%;
+    height:40px;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+     color:gray;
+}
+#slooking{
+    width:100%;
+    height:40px;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+     color:gray;
+}
+#saffiliated{
+    width:100%;
+    height:40px;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+}
+#snext{
+    width:95%;
+    margin-top: 10px;
+    height:30px;
+    margin-left: 15px;
+    background-color: white;
+    border:1px solid rgb(228, 90, 113);
+    color:rgb(221, 17, 51);
+    font-weight: bolder;
+    border-radius: 4px;
+}
+#snext:hover{
+    background-color: pink;
+}
+#cbnavbar{
+    border:1px solid red;
+    margin-bottom: 25px;
+} 
+.hdhide{
+visibility:hidden;
+}
+.hdsnext{
+margin-top: -220px;
+}
+.hdscont{
+height:470px;
+}
+

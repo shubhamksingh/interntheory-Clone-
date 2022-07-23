@@ -1,24 +1,38 @@
 <html>
     <head>
         <title>Education</title>
+        <link rel="shortcut icon" href="https://s3.ap-south-1.amazonaws.com/interntheory/creative/favicon.ico" />
+       <link rel="stylesheet" href="./styles/cbeducation.css">
+       <link rel="stylesheet" href="./styles/navbar.css">
+       <link rel="stylesheet" href="./styles/sidebar.css">
+       <link rel="stylesheet" href="./styles/footer.css">
+       <script src="https://kit.fontawesome.com/e6e10a16ef.js" crossorigin="anonymous"></script>
     </head>
     <body>
+        <div id="navbar"></div>
+        <div id="overlay"></div>
         <div id="econt">
             <div id="edu">Education</div>
-            <div id="Add your educational qualification"></div>
-            Level of Education* <select id="elevel">
+            <div id="aeq">Add your educational qualification</div>
+            <span>Level of Education*</span> <select id="elevel">
                 <option value="">Select Level of Education*      </option>
                 <option value="Post Graduation">Post Graduation</option>
                 <option value="Graduation">Graduation</option>
                 
             </select><br>
-            Degree* <select id="einsti">
+            <span> Institution Name* </span> <select id="einsti">
                 <option value="">Select Institute</option>
                 <option value="Rajiv Gandhi Prodyogiki vishwavidyalaya">Rajiv Gandhi Prodyogiki vishwavidyalaya</option>
                 <option value="CSA university">CSA university</option>
                 <option value="CAET Etawah">CAET Etawah</option>
             </select><br>
-            Select Year* <select id="eyear">
+            <span>Degree*</span> <select id="edegree">
+                <option value="">Select Institute</option>
+                <option value="Master of technology">Master of technology</option>
+                <option value="Bachelor of technology">Bachelor of technology</option>
+                <option value="Intermediate">Intermediate</option>
+            </select><br>
+            <span>Select Year*</span> <select id="eyear">
                 <option value="">Select college year</option>
                 <option value="">First Year</option>
                 <option value="">Second Year</option>
@@ -26,7 +40,8 @@
                 <option value="">Fourth Year</option>
                 <option value="">Already completed</option>
             </select><br>
-            Year of Passing <select id="">
+           <span> Year of Passing</span> <select id="epassing">
+                <option value="">Year of Passing</option>
                 <option value="">2018</option>
                 <option value="">2019</option>
                 <option value="">2020</option>
@@ -35,5 +50,8 @@
             </select><br>
             <button id="eadd">ADD</button>
         </div>
+        <div id="footer"></div> 
     </body>
 </html>
+<script src="./scripts/import.js" type="module"></script>
+<script src="./scripts/cbeducation.js" type="module"></script>

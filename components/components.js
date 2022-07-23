@@ -77,11 +77,11 @@ let sidebar = ()=>{
 
                 <div>           
                     <i class="fa-solid fa-user"></i>
-                    <p id="#sidebarUser">Username</p>
+                    <p id="sidebarUser">Username</p>
                 </div>
 
                 <div>
-                    <a href="#"><p>
+                    <a href="cbprofile.html"><p>
                         <i class="fa-solid fa-user"></i>
                         Profile
                     </p></a>

@@ -35,9 +35,9 @@ document.querySelector("#overlayDiv").addEventListener('click', removeOverlay)
 
 let user = JSON.parse(localStorage.getItem('profile'));
 
-document.querySelector("#sidebarUser").innerHTML = "Login/Signup";
+document.querySelector("#sidebar>div>#sidebarUser").innerHTML = "Login/Signup";
 document.querySelector("#sidebarUser").addEventListener('click', ()=>{
-    window.location.href = "login.html";
+    window.location.href = "cblogin.html";
 })
 
 // ------ navbar functioning ------

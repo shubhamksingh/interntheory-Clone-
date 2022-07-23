@@ -1,0 +1,174 @@
+
+          
+#lcontainer{
+    
+    width:400px;
+    height:auto;
+    padding:20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin:auto;
+    margin-top:120px;
+    color:grey;
+}
+#ltop{
+    display:flex;
+    margin-bottom: 10px;
+}
+#lstudent{
+    width:50%;
+    text-align: center;
+    font-weight: bold;
+    color: gray;
+    
+}
+#lcompany{
+    width:50%;
+    text-align: center;
+    font-weight: bold;
+    color: gray;
+}
+#llogin{
+    width:100%;
+    font-size:25px;
+    color:grey;
+}
+#lchange{
+    border:1px dashed red;
+    font-size: large;
+    background-color: rgb(245, 225, 228);
+    margin-top: 10px;
+    color:gray;
+    padding:10px;
+}
+#fb{
+    display:flex;
+    border:1px solid green;
+    margin-top:20px;
+    padding:5px;
+    background-color: rgb(113, 113, 179);
+    color:white;
+    border-radius: 5px;
+    
+}
+#fb:hover{
+    background-color: rgb(3, 3, 65);
+}
+#fblogo{
+    background-color: rgb(18, 18, 20);
+    margin-left: 5px;
+    background-color: white;
+    padding:3px;
+    border-radius: 5px;
+}
+#fbtext{
+    margin-left: 80px;
+    margin-top: 6px;
+}
+.fblogo{
+    width:20px;
+}
+#ggl{
+    display:flex;
+    border:1px solid green;
+    margin-top:15px;
+    margin-bottom: 15px;
+    padding:5px;
+    background-color: rgb(119, 119, 238);
+    color:white;
+    border-radius: 5px;
+}
+#ggl:hover{
+    background-color: rgb(3, 3, 65);
+}
+.ggllogo{
+    width:25px;
+    border:1px solid blue;
+    margin-left: 5px;
+    background-color: white;
+    padding:3px;
+    border-radius: 5px;
+}
+#ggltext{
+    margin-left: 80px;
+    margin-top: 6px;
+}
+#lor{
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+#sfname{
+    width:49%;
+}
+#slname{
+    width:49%;
+    margin-left: 6px;
+}
+#lmail{
+position:relative;
+}
+.lmail{
+    width:100%;
+    height:50px;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+ outline: none;
+    border-bottom: 1px solid grey;
+}
+.lelabel{
+    position:absolute;
+    margin-left: -360px;
+    margin-top: 20px;
+}
+
+
+.lmail:focus ~ .lelabel{
+    margin-top: -10px;
+    transition: 0.5s;
+}
+
+.lpassword{
+    width:100%;
+    height:50px;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid grey;
+    outline:none;
+}
+
+#smobile{
+    width:100%;
+}
+
+#lrem{
+    margin-top: 10px;
+    display:flex;
+    justify-content: space-between;
+}
+#lcreate{
+margin-top: 10px;
+width:100%;
+text-align: center;
+}
+#llog{
+    width:95%;
+    margin-top: 20px;
+    height:30px;
+    margin-left: 15px;
+    background-color: white;
+    border:1px solid rgb(228, 90, 113);
+    color:rgb(221, 17, 51);
+    font-weight: bolder;
+    border-radius: 4px;
+}
+#llog:hover{
+    background-color: pink;
+}
+#cbnavbar{
+    border:1px solid red;
+    margin-bottom: 25px;
+}

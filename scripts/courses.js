@@ -1,5 +1,19 @@
 let course_arr=JSON.parse(localStorage.getItem("Course_data"))||[];
 // console.log(course_arr);
+function cart_data(el){
+    let data=JSON.parse(localStorage.getItem("cart"))||[];
+    let flag=false;
+    data.forEach(elem=>{
+        if(elem.title===el.title){
+            flag=true;
+            alert("already in cart");
+        }
+    })
+    if(flag==false){
+        data.push(el);
+    }
+    localStorage.setItem("cart",JSON.stringify(data));
+}
 course_arr.forEach(el => {
     let div=document.createElement("div");
     let img=document.createElement("img");
@@ -20,7 +34,7 @@ course_arr.forEach(el => {
     let p1=document.createElement("p");
     p1.setAttribute("class","np");
     let p2=document.createElement("h2");
-    p2.setAttribute("class","price");
+    p2.setAttribute("class","pric");
     let p3=document.createElement("h3");
     p3.setAttribute("class","emi")
     p1.innerText=`₹ ${el.price}`;
@@ -29,12 +43,18 @@ course_arr.forEach(el => {
     let div4=document.createElement("div");
     let h1=document.createElement("h3");
     let a=document.createElement("a");
-    a.innerText="View More";
+    a.innerText="Know More";
+    a.href="./courses.html"
     h1.innerText=a.innerText;
+    h1.setAttribute("class","link")
     let btn=document.createElement("button");
     btn.innerText="ADD TO CART"
     btn.style.backgroundColor="red";
     btn.style.color="white";
+    btn.setAttribute("class","btn")
+    btn.onclick=function(){
+        cart_data(el);
+    }
     let div5=document.createElement("div");
     div5.setAttribute("class","order")
     div5.append(h1,btn)
