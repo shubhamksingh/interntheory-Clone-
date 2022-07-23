@@ -1,0 +1,77 @@
+
+#econt{
+    width:500px;
+    height:auto;
+margin:auto;
+    padding: 20px;
+   text-align: end;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   border-radius: 5px;
+}
+#edu{
+    font-size: 25px;
+    margin-right: 390px;
+}
+#aeq{
+    margin-right: 270px; 
+   color: gray;
+}
+#elevel{
+    width:65%;
+        height:40px;
+        border-top:none;
+        border-left: none;
+        border-right: none;
+        color:gray;
+}
+#einsti{
+    width:65%;
+    height:40px;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+     color:gray;
+
+}
+#edegree{
+    width:65%;
+    height:40px;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+     color:gray;
+}
+#eyear{
+    width:65%;
+    height:40px;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+     color:gray;
+}
+#epassing{
+    width:65%;
+    height:40px;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+     color:gray;
+}
+span{
+    margin-left: 40px;
+    color:gray;
+}
+#eadd{
+    margin-top: 20px;
+    padding:9px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: red;
+    color:white;
+    border:none;
+    border-radius: 5px;
+}
+#cbnavbar{
+    border:1px solid red;
+    margin-bottom: 70px;
+} 

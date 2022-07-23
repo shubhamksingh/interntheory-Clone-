@@ -9,7 +9,7 @@ let hideFun = () => {
     let nextbut = document.querySelector("#snext");
     nextbut.style.marginTop="-220px";
     let cont = document.querySelector("#scont");
-    cont.style.height="470px";
+    cont.style.height="550px";
 
 }
 window.onload=hideFun();

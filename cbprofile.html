@@ -1,160 +1,7 @@
 <html>
     <head>
         <title>Profile Page</title>
-        <style>
-            #pcont{
-                display:flex;
-            }
-            .profilebut{
-                margin-top: 10px;
-            
-               background-color: blue;
-               border:none;
-               padding:5px;
-               border-radius: 5px;
-               color:white;
-            }
-            #pleft{
-                border-radius: 5px;
-                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-                width:250px;
-                height:270px;
-               text-align: center;
-               padding:20px;
-               margin-left: 80px;
-            }
-            #pright{
-               
-                width:850px;
-                height:900px;
-                margin-left: 20px;
-            }
-            #r1{
-              border:2px dashed red;
-              border-radius: 5px;
-                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-                font-size: large;
-                padding:5px;
-            }
-            #r2l{
-                display:flex;
-                
-            }
-            #tally{
-                width:100px;
-                height:70px;
-                border-top-left-radius: 5px;
-                border-bottom-left-radius: 5px;
-            }
-            #tll{
-                display:flex;
-                border:1px solid black;
-                width:350px;
-                height:70px;
-                border-top-left-radius: 5px;
-                border-bottom-left-radius: 5px;
-               margin-bottom: 20px;
-            }
-            #tallyw{
-                margin-top:28px;
-                margin-left: 20px;
-                
-            }
-            #fin{
-                width:100px;
-                height:70px;
-                border-top-left-radius: 5px;
-                border-bottom-left-radius: 5px;
-            }
-            #fint{
-                margin-top:28px;
-                margin-left: 20px;
-            }
-            #tll1{
-                display:flex;
-                border:1px solid black;
-                width:350px;
-                height:70px;
-                border-top-left-radius: 5px;
-                border-bottom-left-radius: 5px;
-                margin-left: 20px;
-            }
-            #rec{
-                font-size: larger;
-        
-            }
-            #r2{
-                border-radius: 5px;
-                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-                margin-top: 15px;
-                padding-left: 20px;
-                padding-bottom: 30px;
-            }
-            #r3{
-                border-radius: 5px;
-                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-                width:100%;
-                height:300px;
-                margin-top:30px;
-            }
-            #topr3{
-                display:flex;
-                padding-top: 30px;
-                padding-left: 42px;
-            }
-            #myc{
-                margin-left: 30px;
-                font-weight: bold;
-            }
-            #myc:hover{
-                color:blue;
-                cursor:pointer;
-                text-decoration: underline;
-            }
-            #myym{
-                font-weight: bold;
-            } 
-            #myym:hover{
-                color:blue;
-                cursor:pointer;
-                text-decoration: underline;
-            }
-            #hrrr{
-                width:95%;
-            }
-            #filter{
-                text-align: end;
-            }
-            #sel1{
-                border-top: none;
-                border-left: none;
-                border-right: none;
-            }
-            #sel2{
-                border-top: none;
-                border-left: none;
-                border-right: none;
-                margin-right: 10px;
-            }
-            .emoji{
-                width:30px;
-            }
-           #nodata{
-            width:250px;
-            margin:auto;
-            text-align: center;
-            margin-top: 50px;
-           }
-           #kick{
-            padding: 8px;
-            color:blue;
-            background-color: white;
-            border:1px solid black;
-           }
-           #kick:hover{
-            background-color:rgb(223, 255, 255);
-           }
-        </style>
+        <link rel="stylesheet" href="./styles/cbprofile.css">
     </head>
     <body>
      <div id="navbar"><h1>nvbar</h1></div>
@@ -176,6 +23,7 @@
         <div id="fint">Finance Starter Pack</div>
     </div>
     </div>
+    <p id="recint">Recommended Internship</p>
     <div id="tll">
         <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEDROZ1Tmky9u9O6XHnxAVTfFBPEaVW9NehUFXiKnubg&s" alt="" id="fin"></div>
         <div id="fint">Finance Starter Pack</div>
@@ -183,7 +31,7 @@
 </div>
 <div id="r3">
     <div id="topr3">
-        <div id="myym">MY APPLICATION</div>
+        <!-- <div id="myym">MY APPLICATION</div> -->
         <div id="myc">MY COURSES</div>
     </div>
     <hr id="hrrr">

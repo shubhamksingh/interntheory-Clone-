@@ -11,7 +11,7 @@ dataUser.forEach((el) => {
 if(email === el.email && password === el.password)
 {
     localStorage.setItem("profile",JSON.stringify(el));
-    alert("Login Successfull");
+   
     window.location.href="cbprofile.html";
 }
 else{
