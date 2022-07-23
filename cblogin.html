@@ -1,13 +1,21 @@
 <html>
     <head>
         <title>Login page</title>
+        <link rel="shortcut icon" href="https://s3.ap-south-1.amazonaws.com/interntheory/creative/favicon.ico" />
+       <link rel="stylesheet" href="./styles/cblogin.css">
+       <link rel="stylesheet" href="./styles/navbar.css">
+       <link rel="stylesheet" href="./styles/sidebar.css">
+       <link rel="stylesheet" href="./styles/footer.css">
+       <script src="https://kit.fontawesome.com/e6e10a16ef.js" crossorigin="anonymous"></script>
     </head>
     <body>
+        <div id="navbar"></div>
+        <div id="overlay"></div>
         <div id="lcontainer">
-            <div id="ltop">
-                <div id="lstuedent">STUDENT</div>
+            <!-- <div id="ltop">
+                <div id="lstudent">STUDENT</div>
                 <div id="lcompany">COMPANY</div>
-            </div>
+            </div> -->
             <div id="lbody">
                 <div id="llogin">Login</div>
                 <div id="lchange">If you are a company looking to hire interns, please login as a company by clicking <a id="lhere" href="">here</a></div>
@@ -17,18 +25,27 @@
                 </div>
                 <div id="ggl">
                     <div id="ggllogo"><img src="google.png" alt="" class="ggllogo"></div>
-                    <div id="ggltext">SIGNIN WITH FACEBOOK</div>
+                    <div id="ggltext">SIGNIN WITH GOOGLE</div>
                 </div>
                 <div id="lor">OR</div>
-                <div id="lmail"><input type="text" class="lmail"></div>
-                <div id="lpassword"><input type="text" class="lpassword"></div>
+                <div id="lmail">
+                   
+                    <input type="text" name="lmail" class="lmail">
+                    <label for="name" class="lelabel">Email</label>
+                </div>
+                <div id="lpassword"><input type="text" class="lpassword" placeholder="Password">
+                   
+                </div>
                 <div id="lrem">
-                    <div><input type="checkbox" class="lrem">Remember Me</div>
+                    <div><input type="checkbox" class="lrem"> &nbsp;Remember Me</div>
                     <div><a href="">Forgot Password?</a></div>
                 </div>
-                <div id="lcreate">Don't have an account? <a href="">Create your account</a></div>
-                <button id="llogin">Login</button>
+                <div id="lcreate">Don't have an account? <a href="cbsignup.html">Create your account</a></div>
+                <button id="llog">LOGIN</button>
             </div>
         </div>
+        <div id="footer"></div> 
     </body>
 </html>
+<script src="./scripts/import.js" type="module"></script>
+<script src="./scripts/cblogin.js" type="module"></script>

@@ -1,12 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>payment</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="./styles/payment.css" />
+  </head>
+  <style>
+    input {
+      position: relative;
+      margin-left: 4rem;
+    }
+    #nav {
+      font-size: 1000;
+      font-size: 35px;
+      border-bottom: 4px solid teal;
+    }
+    h2 {
+      /* text-align: center; */
+    }
+    form {
+      width: 30%;
+      margin: auto;
+    }
+    form > div {
+      display: grid;
+      grid-template-columns: 30% 60%;
+      /* border: 1px solid black;  */
+    }
+    #checkbox {
+      margin-top: 1rem;
+      display: grid;
+      /* grid-template-columns: ; */
+      justify-content: center;
+      align-items: center;
+    }
+    button {
+      display: block;
+      margin: auto;
+    }
+    form img {
+      width: 25px;
+      height: 15px;
+      margin-left: 1rem;
+      margin-bottom: 10px;
+    }
+    #one {
+      margin-left: 68px;
+    }
+
+    #payment {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #payment > img {
+      margin-top: 20px;
+      width: 30%;
+    }
+  </style>
+  <body>
+    <div id="nav">Checkout</div>
+
+    <form action="" >
+      <h2>PAYMENT INFORMATION</h2>
+      <div>
+        Card Number: <input type="text" name="" id="" required /> <br />
+      </div>
+      <div>
+        <div></div>
+        <div>
+          <img
+            id="one"
+            src="https://blog.logomyway.com/wp-content/uploads/2022/02/visa-logo-2.jpg"
+            alt=""
+          /><img
+            src="https://pngimg.com/uploads/mastercard/mastercard_PNG10.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div>Expiration: <input type="date" required /><br /></div>
+      <div>Security Code: <input type="password" required /></div>
+      <div id="checkbox">
+        <input type="checkbox" />
+        <label for="">Store this card for future use</label><br />
+      </div>
+      <button onclick="payment()">Make payment</button>
+    </form>
+
+    <div id="payment"></div>
+  </body>
 </html>
+<script src="./scripts/payment.js"></script>
