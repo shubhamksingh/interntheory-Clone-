@@ -7,7 +7,9 @@ let navbar = () => {
             <div>
                 <i class="fa-solid fa-bell"></i>
                 <i class="fa-solid fa-cart-shopping"></i>
-                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-user"><div onclick="logoutFun()" id="logoutPopup"><i class="fa-solid fa-arrow-right-from-bracket"></i>Log Out</div></i>
+                <div id="cartEmptyPopup"> <i class="fa-solid fa-triangle-exclamation"></i> There are no items in the cart <i class="fa-solid fa-xmark"></i></div>
+                
             </div>`
 }
 
@@ -69,43 +71,44 @@ let footer = () => {
 let sidebar = ()=>{
     return `<div id="sidebar">
                 <div>
-                <img src="https://assets.interntheory.com/creative/logo.png" alt="">
-                <i id="closeSidebar" class="fa-solid fa-circle-xmark"></i>
+                    <img src="https://assets.interntheory.com/creative/logo.png" alt="">
+                    <i id="closeSidebar" class="fa-solid fa-circle-xmark"></i>
                 </div>
 
                 <div>           
                     <i class="fa-solid fa-user"></i>
-                    <p>Username</p>
+                    <p id="sidebarUser">Username</p>
                 </div>
 
                 <div>
-                    <a><p>
+                    <a href="cbprofile.html"><p>
                         <i class="fa-solid fa-user"></i>
                         Profile
                     </p></a>
-                    <a><p>
+                    <a href="internship.html"><p>
                         <i class="fa-solid fa-list"></i>
                         Internships
                     </p></a>
-                    <a><p>
+                    <a href="jobs.html"><p>
                         <i class="fa-solid fa-briefcase"></i>
                         Jobs
                     </p></a>
-                    <a><p>
+                    <a href="courses.html"><p>
                         <i class="fa-solid fa-book-bookmark"></i>
                         Courses
                     </p></a>
-                    <a><p>
+                    <a href="contact.html"><p>
                         <i class="fa-solid fa-phone"></i>
                         Contact Us  
                     </p></a>
                     <div></div>
-                    <a><p>
+                    <a onclick="logoutFun()"><p>
                         <i class="fa-solid fa-arrow-right-from-bracket"></i>
                         Logout
                     </p></a>
                 </div>
-            </div>`
+            </div>
+            <div id="overlayDiv"></div>`
 }
 
 export {navbar, footer, sidebar}
