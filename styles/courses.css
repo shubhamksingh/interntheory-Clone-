@@ -29,7 +29,7 @@
     grid-template-rows: auto;
     justify-content: center;
     grid-template-columns: repeat(4,25%);
-    gap:2%;
+    gap:15px;
     margin: auto;
    margin-bottom: 100px;
 }
@@ -42,10 +42,12 @@
     flex-direction: column;
     padding-bottom: 20px;
     border-bottom-style: dashed;
+    border-bottom:2px dashed dimgray;
 }
 .course>img{
     height: 70%;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .head1{
@@ -56,6 +58,7 @@
     font-size: 18px;
     overflow: hidden;
     color: dimgray;
+    padding: 5px 0px;
 }
 .price{
  
@@ -95,8 +98,11 @@ font-weight: lighter;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding: 20px;
+    border-radius: 10px;
 }
-@media all and (min-width:600px) and (max-width:800px){
+
+@media all and (min-width:700px) and (max-width:1000px){
     #asec2{
         display: grid;
         grid-template-rows: auto;
@@ -106,7 +112,7 @@ font-weight: lighter;
        
     }
 }
-@media all and (min-width:200px) and (max-width:600px){
+@media all and (min-width:200px) and (max-width:700px){
     #asec2{
         display: grid;
         grid-template-rows: auto;
