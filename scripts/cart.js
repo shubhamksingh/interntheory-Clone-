@@ -78,6 +78,15 @@ const checkout = document.getElementById('bt2').addEventListener('click',()=>{
     window.location.href= 'payment.html';
 })
 
+document.getElementById('bt1').addEventListener('click', ()=>{
+    const coupon = document.getElementById('coupon').value;
+    if(coupon == MASAI20){
+        const d = document.getElementById('d');
+        let temp = d.innerText;
+        temp = +temp - Math.floor(+temp*20/100);
+        d.innerText = temp;
+    }
 
+})
 
 

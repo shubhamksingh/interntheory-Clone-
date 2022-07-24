@@ -1,13 +1,7 @@
-// const form = document.getElementById("form");
+const  btn = document.getElementById("btn");
 
-// form.addEventListener("submit", (event) => {
-//   event.preventDefault();
-//   console.log('hahahahahah')
-
-  
-// });
-
-function payment(){
+btn.addEventListener("click", (event) => {
+  event.preventDefault();
   const x = document.getElementById("payment");
   setTimeout(() => {
     x.innerHTML = null;
@@ -29,7 +23,14 @@ function payment(){
     setTimeout(() => {
         let purchase = localStorage.getItem('cart');
         localStorage.setItem('purchase', purchase);
+        localStorage.setItem('cart', JSON.stringify([]));
         window.location.href='index.html';
     }, 7000);
-  }, 11000);    
+  }, 11000); 
+
+  
+});
+
+function payment(){
+   
 }
