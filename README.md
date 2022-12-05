@@ -33,4 +33,4 @@ https://github.com/shubhamksingh/interntheory-Clone-
 
 
 ## Image
-![Logo](https://assets.interntheory.com/creative/Homepage-Banner.png)
+![Logo](https://i.ibb.co/xmJwyTf/intern.png)
