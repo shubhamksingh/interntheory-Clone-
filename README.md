@@ -2,7 +2,7 @@
 #  Intern Theory website clone
 
 - An online internship portal created to bridge the gap between students seeking internships and companies looking for interns.
-- A collaborative project built by a team of 5 member, executed in a week.
+- A collaborative project built by a team of 5 member, executed in a week..
 
 
 ## Tech Stack
